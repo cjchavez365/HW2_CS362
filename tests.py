@@ -2,6 +2,7 @@ import unittest
 from contrived_func import contrived_func
 
 class TestCase(unittest.TestCase):
+
     def test1(self):
         contrived_func(0)
 
@@ -25,6 +26,7 @@ class TestCase(unittest.TestCase):
 
     def test8(self):
         contrived_func(39)
+
 
 if __name__ == '__main__':
     unittest.main()
